@@ -36,7 +36,7 @@ const ShowProducts = () => {
                     </tr>
                 </thead>
                 <tbody>
-                   {
+                   {products &&
                     products.map((product) => (
                         <tr key={product.id}>
                             <td>{product.description}</td>
