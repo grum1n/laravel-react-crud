@@ -15,9 +15,6 @@ const CreateProduct = () => {
         e.preventDefault();
         await axios.post(endpoint, {description: description, price: price, stock: stock});
         navigate('/');
-        setDescription('')
-        setPrice(0)
-        setStock(0)
     }
 
 
