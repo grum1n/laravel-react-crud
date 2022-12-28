@@ -13,13 +13,15 @@ const ShowProducts = () => {
 
     const getAllProducts = async () => {
         const response = await axios.get(`${endpoint}/products`);
-        setProducts(response);
+        setProducts(response.data);
     }
 
     const deleteProduct = async (id) => {
         await axios.delete(`${endpoint}/product/${id}`);
         getAllProducts();
     }
+
+    console.log('products :', products);
 
     return (
         <div>
