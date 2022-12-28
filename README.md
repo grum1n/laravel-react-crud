@@ -35,3 +35,8 @@ terminal:
 php artisan migrate
 
 //created migration tables
+*********************
+
+
+terminal:
+php artisan migrate 
