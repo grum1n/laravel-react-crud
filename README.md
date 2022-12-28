@@ -56,7 +56,6 @@ php artisan serve
 
 terminal:
 npx create-react-app  client
-
 npm i axios bootstrap react-router-dom
 
 
