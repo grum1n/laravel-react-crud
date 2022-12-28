@@ -21,8 +21,6 @@ const ShowProducts = () => {
         getAllProducts();
     }
 
-    console.log('products :', products);
-
     return (
         <div>
             <div className='d-grid gap-2'>
