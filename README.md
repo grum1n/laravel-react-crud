@@ -33,3 +33,5 @@ php artisan make:controller Api/ProductController --api
 *******************
 terminal: 
 php artisan migrate
+
+//created migration tables
