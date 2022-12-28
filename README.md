@@ -22,3 +22,10 @@ terminal:
 php artisan make:model Product -m
 
 //model created.
+
+
+******************
+terminal:
+php artisan make:controller Api/ProductController --api
+
+//controller created
