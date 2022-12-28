@@ -29,3 +29,7 @@ terminal:
 php artisan make:controller Api/ProductController --api
 
 //controller created
+
+*******************
+terminal: 
+php artisan migrate
