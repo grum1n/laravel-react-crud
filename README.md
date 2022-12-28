@@ -1,5 +1,6 @@
 # laravel-react-crud
 
+Thunder Client (20min)
 
 links:
 
@@ -41,4 +42,10 @@ terminal:
 php artisan route:list
 
 //show routes list
+
+Thunder Client (20min)
+
 *************************
+terminal:
+php artisan serve
+
