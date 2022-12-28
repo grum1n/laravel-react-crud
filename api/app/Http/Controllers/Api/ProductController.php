@@ -30,6 +30,7 @@ class ProductController extends Controller
         $product = Product::find($id);
         return $product;
     }
+    
     public function update(Request $request, $id)
     {
        $product = Product::findOrFail($request->id);

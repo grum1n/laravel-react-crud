@@ -37,6 +37,8 @@ php artisan migrate
 //created migration tables
 *********************
 
-
 terminal:
-php artisan migrate 
+php artisan route:list
+
+//show routes list
+*************************
