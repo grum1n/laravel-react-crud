@@ -18,3 +18,7 @@ change code:
 DB_DATABASE=laravel_react_crud_api_db
 
 ************
+terminal:
+php artisan make:model Product -m
+
+//model created.
