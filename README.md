@@ -1,5 +1,7 @@
 # laravel-react-crud
 
+# api:
+
 Thunder Client (20min)
 
 links:
@@ -48,4 +50,15 @@ Thunder Client (20min)
 *************************
 terminal:
 php artisan serve
+
+
+# client:
+
+terminal:
+npx create-react-app  client
+
+npm i axios bootstrap react-router-dom
+
+
+
 
