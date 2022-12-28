@@ -46,7 +46,7 @@ const ShowProducts = () => {
                             <td>{product.stock}</td>
                             <td>
                                 <Link to={`/edit/${product.id}`} className='btn btn-warning'>Edit</Link>
-                               <button onClick={() => deleteProduct(product.id)} className='bnt bnt-danger'>Delete</button>
+                               <button onClick={() => deleteProduct(product.id)} className='btn btn-danger'>Delete</button>
                             </td>
                         </tr>
                     ))
