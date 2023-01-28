@@ -2,7 +2,7 @@
 
 # api:
 
-Thunder Client (20min)
+Thunder Client 
 
 links:
 
